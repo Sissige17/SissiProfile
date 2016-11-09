@@ -13,7 +13,7 @@ body {
 }
 
 #logo-img {
-  background: url('../images/profile.jpg') no-repeat;
+  background: url('../Images/profile.jpg') no-repeat;
   width: 35px; 
   height: 35px;
   margin: 15px 10px 10px 10px;
@@ -169,17 +169,17 @@ padding:0px;
 }
 
 #projects-tile {
-  background: url('../images/workexperience.jpg') no-repeat;
+  background: url('../Images/workexperience.jpg') no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 #skills-tile {
-  background: url('../images/skills.png') no-repeat;
+  background: url('../Images/skills.png') no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 #awards-tile {
-  background: url('../images/awards.jpg') no-repeat;
+  background: url('../Images/awards.jpg') no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
