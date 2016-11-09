@@ -1,0 +1,104 @@
+
+.container_work {
+	padding-bottom:10px;
+	padding-top: 0px;
+}
+
+
+.container_work .btn {
+background-color: black;
+opacity: 0.8;
+font-weight: bold;
+width: 100%;
+margin:auto;
+font-size: 2vw;
+padding:15px;
+margin:2.5px;
+overflow: hidden;
+}
+
+#expand{
+background-color: black;
+opacity: 0.6;
+padding:20px;
+margin-top: 0px;
+padding-top:5px
+}
+
+#expand h2, #expand span {
+font-size: 1.2em;
+font-weight: 2000;
+font-weight: bold;
+color: #337AB7;
+}
+
+#expand a {
+	color: #951C49;
+	float: right;
+}
+
+#expand .glyphicon {
+	color: #951C49;
+}
+
+#expand2{
+background-color: black;
+opacity: 0.6;
+padding:20px;
+margin-top: 0px;
+padding-top:5px
+}
+
+#expand2 h2, #expand2 span {
+font-size: 1.2em;
+font-weight: 2000;
+font-weight: bold;
+color: #337AB7;
+}
+
+#expand2 a {
+	color: #951C49;
+	float: right;
+}
+
+#expand2 .glyphicon {
+	color: #951C49;
+}
+
+#expand3{
+background-color: black;
+opacity: 0.6;
+padding:20px;
+margin-top: 0px;
+padding-top:5px
+}
+
+#expand3 h2, #expand2 span {
+font-size: 1.2em;
+font-weight: 2000;
+font-weight: bold;
+color: #337AB7;
+}
+
+#expand3 a {
+	color: #951C49;
+	float: right;
+}
+
+#expand3 .glyphicon {
+	color: #951C49;
+}
+
+@media (max-width: 767px) and (min-width: 480px) {
+
+	.container_work .btn {
+		font-size: 3vw;
+	}
+}
+
+@media (max-width: 479px) and (min-width: 320px) {
+
+		.container_work .btn {
+		font-size: 3vw;
+	}
+}
