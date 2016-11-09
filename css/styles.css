@@ -1,0 +1,313 @@
+body {
+  font-size: 14px;
+  color: #fff;
+  font-family: 'Oxygen', sans-serif;
+  margin:30px;
+}
+
+/** HEADER **/
+#header-nav {
+  background:none;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('../images/profile.jpg') no-repeat;
+  width: 35px; 
+  height: 35px;
+  margin: 15px 10px 10px 10px;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { /* my name */
+  font-family: 'Lora', serif;
+  color: #337AB7;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #951C49;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#email {
+  margin-top: 5px;
+}
+#email a { /*email*/
+  text-align: right;
+  padding-bottom: 0;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+  #call-btn > a {
+    font-size: 3vw;
+    display: block;
+    padding: 10px;
+    border: 2px solid #fff;
+    background-color: #337AB7;
+    color: #fff;
+    margin: 20px;
+    width: 100%;
+    margin:auto;
+    margin-bottom: 20px;
+  }
+
+
+blockquote {
+  color:#337AB7;
+  font-family: 'Lora', serif;
+  text-align: center;
+  font-weight: bold;
+  width: 100%;
+  padding:0px;
+}
+blockquote:before {
+  color: #000;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.1em;
+  vertical-align: -0.2em;
+  display: inline;
+}
+
+blockquote:after {
+  color: #000;
+  content: close-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-left: 0.1em;
+  vertical-align: -0.2em;
+}
+
+
+/* END HEADER */
+
+/* FOOTER */
+.panel-footer {
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div .row {
+  margin: 5px;
+  padding:0px;
+}
+
+#address td {
+  text-align: left;
+  padding: 5px;
+  margin:2px;
+}
+#address_xs ul { text-align: center;
+margin:0px;
+padding:0px;
+}
+
+#social_icon {
+  padding: 5px;
+    float: left;
+    text-align:left;
+}
+#social_icon td {
+  text-align: left;
+  padding: 5px;
+  margin:2px;
+}
+
+#social_pic {
+  text-align: center;}
+
+#social_pic a {
+  margin:5px;
+  display: inline-block;
+}
+
+.text-center { color: #951C49; }
+
+
+/* END FOOTER */
+
+
+
+/* HOME PAGE */
+
+#projects-tile, #awards-tile, #skills-tile {
+  padding-bottom: 60%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  margin-top:10px;
+}
+
+#projects-tile {
+  background: url('../images/workexperience.jpg') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+#skills-tile {
+  background: url('../images/skills.png') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+#awards-tile {
+  background: url('../images/awards.jpg') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.caption-text{
+  font-size: 1em;
+  position: absolute;
+  background-size: 100%;
+
+}
+
+#skills-tile span, #awards-tile span, #projects-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
+
+/* END HOME PAGE */
+
+/********** Large devices only **********/
+@media (min-width: 1200px) {
+  }
+}
+
+/********** Medium devices only **********/
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/********** Small devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+ 
+}
+
+/********** Extra small devices only **********/
+@media (max-width: 767px) and (min-width: 480px) {
+  /* Header */
+  .navbar-brand {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .navbar-brand h1 { 
+    padding-top: 10px;
+    font-size: 4vw; /* 1vw = 1% of viewport width */
+  }
+
+#collapsable-nav {
+  position: absolute;
+  background-color: black;
+  z-index: 100;
+  right: 10%;
+}
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    text-align: center;
+   }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #logo-img {
+  width: 35px; 
+  height: 35px;
+  margin: 10px 0px 10px 10px;}
+
+  #home-tile {
+    width: 360px;
+    margin: 0 auto 15px;
+  }
+  .panel-footer div.row {
+  margin: 5px;
+  padding:0px;
+}
+
+#call-btn > a {
+    font-size: 4vw;
+  }
+
+}
+
+/********** Super extra small devices Only :-) (e.g., iPhone 4) **********/
+@media (max-width: 479px) {
+
+.navbar-brand h1 { /* My name */
+    padding-top: 5px;
+    font-size: 6vw;
+  }
+
+blockquote{font-size: 0.8em}
+
+#home-tile{
+    width: 280px;
+    margin: 0 auto 15px;
+  }
+
+#address {
+  font-size: 0.8em;
+}
+
+#collapsable-nav {
+  position: absolute;
+  background-color: black;
+  z-index: 100;
+  right: 10%;
+}
+
+  #collapsable-nav a { /* Collapsed nav menu text */
+    font-size: 1.2em;
+    text-align: center;
+   }
+  #collapsable-nav a span { /* Collapsed nav menu glyph */
+    font-size: 1em;
+    margin-right: 5px;
+  }
+
+  #call-btn > a {
+    font-size: 4.5vw;
+  }
+
+}
+
+

@@ -1,0 +1,221 @@
+<!-- Head -->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title> Sissi Ge</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Oxygen:400,300,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Lora' rel='stylesheet' type='text/css'>
+
+       <link rel="stylesheet" href="css/contact.css">
+
+  </head>
+
+<!-- Header -->
+<body background="images/background.jpg" none-repeat>
+  <header>
+    <nav id="header-nav" , class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a href="home.html" class="pull-left">
+            <div id="logo-img" class="pull-left"></div>
+          </a>
+
+          <div class="navbar-brand">
+            <a href="home.html"><h1>Sissi Ge</h1></a>
+          </div>
+
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+
+        <div id="collapsable-nav" class="collapse navbar-collapse">
+           <ul id="nav-list" class="nav navbar-nav navbar-right">
+             <li>
+              <a href="home.html">
+                <span class="glyphicon glyphicon-home"></span><br class="hidden-xs"> Home </a>
+            </li>
+            <li>
+              <a href="education.html">
+                <span class="glyphicon glyphicon-education"></span><br class="hidden-xs"> Education </a>
+            </li>
+            <li>
+              <a href="work.html">
+                <span class="glyphicon glyphicon-glass"></span><br class="hidden-xs"> Work</a>
+            </li>
+
+            <li>
+              <a href="travel.html">
+                <span class="glyphicon glyphicon-globe"></span><br class="hidden-xs"> Travel </a>
+            </li>
+
+            <li>
+              <a href="community.html">
+                <span class="glyphicon glyphicon-tree-deciduous"></span><br class="hidden-xs"> Community </a>
+            </li>
+            
+            <li>
+              <a href="contact.html">
+                <span class="glyphicon glyphicon-envelope"></span><br class="hidden-xs"> Contact </a>
+            </li>
+           
+          </ul><!-- #nav-list -->
+        </div><!-- .collapse .navbar-collapse -->
+      </div><!-- .container -->
+    </nav><!-- #header-nav -->
+  </header>
+
+  <div id="call-btn" class="visible-xs">
+    <a class="btn" href="sissi-ge@hotmail.com">
+    <span class="glyphicon glyphicon-envelope">
+    sissi-ge@hotmail.com </span>
+    </a>
+  </div>
+
+  <!-- Content -->
+  <div class="container_contact">
+
+            <div class="row">
+
+                <div class="col-lg-8 col-lg-offset-2">
+
+                    <h1>Contact Form</h1>
+
+                    <p class="lead"> Please feel free to contact with me if you have any question.</p>
+
+
+                    <form id="contact-form" method="post" action="contact.php" role="form">
+
+                        <div class="messages"></div>
+
+                        <div class="controls">
+
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_name">Firstname *</label>
+                                        <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your firstname *" required="required" data-error="Firstname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_lastname">Lastname *</label>
+                                        <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your lastname *" required="required" data-error="Lastname is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_email">Email *</label>
+                                        <input id="form_email" type="email" name="email" class="form-control" placeholder="Please enter your email *" required="required" data-error="Valid email is required.">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="form-group">
+                                        <label for="form_phone">Phone</label>
+                                        <input id="form_phone" type="tel" name="phone" class="form-control" #placeholder="Please enter your phone">
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <div class="form-group">
+                                        <label for="form_message">Message *</label>
+                                        <textarea id="form_message" name="message" class="form-control" placeholder="Message for me *" rows="4" required="required" data-error="Please,leave us a message."></textarea>
+                                        <div class="help-block with-errors"></div>
+                                    </div>
+                                </div>
+                                <div class="col-md-12">
+                                    <input type="submit" class="btn btn-success btn-send" value="Send message">
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-12">
+                                    <p class="text-muted"><strong>*</strong> These fields are required.</p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </form>
+
+                </div><!-- /.8 -->
+
+            </div> <!-- /.row-->
+
+        </div> <!-- /.container-->
+  
+
+  <!-- Footer -->
+
+    <footer class="panel-footer">
+    <div class="container">
+     <div class="row" >
+        <section id="address" class="col-lg-8 col-md-8 col-sm-8 hidden-xs">
+          <table> 
+            <p>CONTACT:</p> 
+            <tr> <td>Name: </td>
+                 <td>Sissi Ge</td> </tr>
+            <tr> <td>Phone: </td>
+                 <td><a href="tel:8573129864"> (857) 312 9864 </a> </td> </tr>
+            <tr> <td>Address: </td>
+                 <td><a href="https://goo.gl/maps/d4vEEcf1fnk" target="_blank"> 444 Saratoga Ave Santa Clara, CA 95050 </td> </a> </tr>
+            <tr> <td>Email: </td>
+            <td> <a href="mailto:sissi-ge@hotmail.com" >sissi-ge@hotmail.com</a> </td> </tr>
+          </table>
+        </section>
+
+        <section id="social_icon" class="col-lg-4 col-md-4 col-sm-4 hidden-xs">
+         <table>
+          <p>STAY CONNECTED:</p>
+          <tr> <td> Facebook: </td>
+               <td> 
+               <a href="https://www.facebook.com/sissi.ge?ref=br_rs" target="_blank"><img src ="images/facebook.png" style: width="20px"; height="20px"> </td> </tr>
+          <tr> </a> <td> LinkedIn: </td>
+              <td>  <a href="https://www.linkedin.com/in/sissi-ge-81a30334?trk=nav_responsive_tab_profile" target="_blank">  <img src ="images/Linkedin.png" style: width="20px"; height="20px"> </a> </td> </tr>
+          <tr> <td> Pinterest:</td>
+               <td> <img src ="images/Pinterest.png" style: width="20px"; height="20px"> </td> </tr>
+       </table>
+      </section>
+  </div>
+       <div id="address_xs" class="visible-xs">
+            <ul>Phone: <a href="tel:8573129864"> (857) 312 9864 </a> </ul>
+            <ul>Address: <a href="https://goo.gl/maps/d4vEEcf1fnk" target="_blank">444 Saratoga Ave Santa Clara, CA 95050 </a> </ul>
+            <ul>Email: <a href="mailto:sissi-ge@hotmail.com">sissi-ge@hotmail.com</a> </ul>
+       </div>
+           
+       <div id="social_pic" class="visible-xs">
+         <a href="https://www.facebook.com/sissi.ge?ref=br_rs" target="_blank"> <img src ="images/facebook.png" style: width="20px"; height="20px"> </a>
+        <a href="https://www.linkedin.com/in/sissi-ge-81a30334?trk=nav_responsive_tab_profile" target="_blank">  <img src ="images/Linkedin.png" style: width="20px"; height="20px"> </a>
+        <a> <img src ="images/Pinterest.png" style: width="20px"; height="20px"> </a> 
+      </div>
+
+      <div class="text-center"> &copy; Sissi Ge 2016 </div>
+</div>
+  </footer>
+
+  <!-- jQuery (Bootstrap JS plugins depend on it) -->
+  <script src="js/jquery-3.1.0.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+        <script src="validator.js"></script>
+        <script src="contact.js"></script>
+
+
+</body>
+</html>

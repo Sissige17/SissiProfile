@@ -1,0 +1,48 @@
+#china-tile, #SoutheastAsia-tile, #UnitedStates-tile, #mexico-tile {
+  padding-bottom: 60%;
+  margin-bottom: 15px;
+  position: relative;
+  border: 2px solid #3F0C1F;
+  overflow: hidden;
+  margin-top:10px;
+}
+#china-tile:hover, #SoutheastAsia-tile:hover, #UnitedStates-tile:hover, #mexico-tile:hover {
+  box-shadow: 0 1px 5px 1px #cccccc;
+}
+
+#china-tile {
+  background: url('../images/travel/home/china.jpg') no-repeat;
+  background-position: center; 
+  background-size: 100% 100%;
+}
+
+#SoutheastAsia-tile {
+  background: url('../images/travel/home/SoutheastAsia.jpg') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+#UnitedStates-tile {
+  background: url('../images/travel/home/UnitedStates.jpg') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+#mexico-tile {
+  background: url('../images/travel/home/Mexico.jpg') no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+#mexico-tile span, #UnitedStates-tile span, #SoutheastAsia-tile span, #china-tile span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  text-align: center;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  background-color: #000;
+  color: #fff;
+  opacity: .8;
+}
