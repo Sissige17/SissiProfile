@@ -11,25 +11,25 @@
 }
 
 #china-tile {
-  background: url('../Images/travel/home/china.JPG') no-repeat;
+  background: url('../Images/travel/hoME/china.JPG') no-repeat;
   background-position: center; 
   background-size: 100% 100%;
 }
 
 #SoutheastAsia-tile {
-  background: url('../Images/travel/home/SoutheastAsia.JPG') no-repeat;
+  background: url('../Images/travel/hoME/SoutheastAsia.JPG') no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 
 #UnitedStates-tile {
-  background: url('../Images/travel/home/UnitedStates.JPG') no-repeat;
+  background: url('../Images/travel/hoME/UnitedStates.JPG') no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
 
 #mexico-tile {
-  background: url('../Images/travel/home/Mexico.JPG') no-repeat;
+  background: url('../Images/travel/hoME/Mexico.JPG') no-repeat;
   background-position: center;
   background-size: 100% 100%;
 }
